@@ -1,11 +1,11 @@
 def fizzbuzz(num)
 (1..100).each do |num|
  if num % 3 == 0
-   puts "Fizz"
+   "Fizz"
  elsif num % 5 == 0
-   puts "Buzz"
+   "Buzz"
  elsif num % 3 == 0 && num % 5 == 0
-   puts "FizzBuzz"
+   "FizzBuzz"
  else
    num = num
  end
